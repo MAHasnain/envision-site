@@ -1,7 +1,6 @@
 import Reveal from "./Reveal";
 import BlueImage from "./BlueImage";
 
-// Apni landmark photos in naamon se public/images/presence/ mein rakho
 const countries = [
   { name: "Saudi Arabia", src: "/images/presence/saudia-arabia.jpg" },
   { name: "United Arab Emirates", src: "/images/presence/uae.jpg" },
