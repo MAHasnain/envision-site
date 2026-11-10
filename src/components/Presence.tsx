@@ -3,7 +3,7 @@ import BlueImage from "./BlueImage";
 
 const countries = [
   { name: "Saudi Arabia", src: "/images/presence/saudia-arabia.jpg" },
-  { name: "United Arab Emirates", src: "/images/presence/uae.jpg" },
+  { name: "United Arab Emirates", src: "/images/presence/UAE.jpg" },
   { name: "Germany", src: "/images/presence/germany.jpg" },
   { name: "France", src: "/images/presence/france.jpg" },
 ];
