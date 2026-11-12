@@ -10,8 +10,8 @@ export default function ServiceCard({ service }: { service: Service }) {
   const title = t(`items.${service.id}.title`);
 
   return (
-    <article className="group relative h-full rounded-2xl border border-white/10 bg-white/4 p-2 transition-colors hover:border-picton/50">
-      <div className="relative aspect-16/10 overflow-hidden rounded-xl bg-black">
+    <article className="group relative flex h-full flex-col rounded-2xl border border-white/10 bg-white/4 p-2 transition-colors hover:border-picton/50">
+      <div className="relative aspect-16/10 shrink-0 overflow-hidden rounded-xl bg-black">
         <Image
           src={service.src}
           alt=""
@@ -20,18 +20,20 @@ export default function ServiceCard({ service }: { service: Service }) {
           className="object-cover"
         />
       </div>
-      <div className="px-3 pb-4 pt-5">
+      <div className="flex flex-1 flex-col px-3 pb-4 pt-5">
         <h3 className="text-lg font-semibold text-white">{title}</h3>
         <p className="mt-2 text-sm leading-relaxed text-white/60">
           {t(`items.${service.id}.text`)}
         </p>
-        <Link
-          href={service.href}
-          className="mt-4 inline-block text-sm font-medium text-picton-200 after:absolute after:inset-0 after:content-[''] group-hover:text-picton-100 group-hover:underline"
-        >
-          {t("learnMore")}
-          <span className="sr-only">: {title}</span>
-        </Link>
+        <div className="mt-auto pt-5">
+          <Link
+            href={service.href}
+            className="inline-block text-sm font-medium text-picton-200 after:absolute after:inset-0 after:content-[''] group-hover:text-picton-100 group-hover:underline"
+          >
+            {t("learnMore")}
+            <span className="sr-only">: {title}</span>
+          </Link>
+        </div>
       </div>
     </article>
   );
