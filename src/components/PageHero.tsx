@@ -15,7 +15,7 @@ export default function PageHero({ eyebrow, title, accent, text, cta }: Props) {
       {/* Home hero jaisa subtle grid */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:64px_64px] [mask-image:radial-gradient(ellipse_at_30%_30%,black_15%,transparent_70%)]"
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-size-[64px_64px] mask-[radial-gradient(ellipse_at_30%_30%,black_15%,transparent_70%)]"
       />
 
       <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-36 sm:px-8 lg:pb-28 lg:pt-44">
@@ -27,13 +27,13 @@ export default function PageHero({ eyebrow, title, accent, text, cta }: Props) {
 
         <Reveal delay={0.08}>
           <h1 className="mt-4 max-w-4xl text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-[3.6rem]">
-            <span className="bg-gradient-to-b from-white to-picton-100/80 bg-clip-text text-transparent">
+            <span className="bg-linear-to-b from-white to-picton-100/80 bg-clip-text text-transparent">
               {title}
             </span>
             {accent && (
               <>
                 <br />
-                <span className="bg-gradient-to-r from-picton-300 to-picton bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-picton-300 to-picton bg-clip-text text-transparent">
                   {accent}
                 </span>
               </>

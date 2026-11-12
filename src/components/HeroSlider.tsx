@@ -2,39 +2,20 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const slides = [
-  {
-    title: "Cloud Services",
-    tab: "Cloud",
-    text: "Secure, high-performance cloud environments built for enterprise workloads, with greater control, visibility and flexibility.",
-    src: "/images/services/cloud.png",
-  },
-  {
-    title: "Technology & Data Center Infrastructure",
-    tab: "Data Center",
-    text: "High-availability infrastructure and data center environments designed for resilience, security and reliable operations.",
-    src: "/images/services/data-center.png",
-  },
-  {
-    title: "Cybersecurity & NIS2",
-    tab: "Cybersecurity",
-    text: "Strengthen cyber resilience, manage risk and prepare for evolving European regulatory requirements, including NIS2.",
-    src: "/images/services/cybersecurity.png",
-  },
-  {
-    title: "AI & Automation",
-    tab: "AI & Automation",
-    text: "Unlock efficiency and innovation with practical Ai solutions and intelligent Automations.",
-    src: "/images/services/ai-automation.png",
-  },
-];
+  { id: "cloud-services", src: "/images/services/cloud.png" },
+  { id: "data-center-infrastructure", src: "/images/services/data-center.png" },
+  { id: "cybersecurity-nis2-compliance", src: "/images/services/cybersecurity.png" },
+  { id: "ai-automation", src: "/images/services/ai-automation.png" },
+] as const;
 
 export default function HeroSlider() {
+  const t = useTranslations("Services");
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
 
-  // Progress bar ki animation khatam hone par agli slide (autoplay)
   const next = () => setIndex((v) => (v + 1) % slides.length);
 
   return (
@@ -45,36 +26,39 @@ export default function HeroSlider() {
       onFocus={() => setPaused(true)}
       onBlur={() => setPaused(false)}
     >
-      {/* Image + caption overlay, sirf crossfade */}
       <div className="relative aspect-16/11 overflow-hidden rounded-xl bg-white/5 sm:aspect-16/10">
         {slides.map((s, i) => (
           <div
-            key={s.title}
+            key={s.id}
             aria-hidden={i !== index}
             className={`absolute inset-0 transition-opacity duration-700 motion-reduce:transition-none ${i === index ? "opacity-100" : "opacity-0"
               }`}
           >
             <Image
               src={s.src}
-              alt={i === index ? s.title : ""}
+              alt={i === index ? t(`items.${s.id}.title`) : ""}
               fill
               priority={i === 0}
               sizes="(min-width: 1024px) 600px, 100vw"
               className="object-cover"
             />
             <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black via-black/75 to-transparent px-5 pb-5 pt-24 sm:px-6 sm:pb-6">
-              <h3 className="text-lg font-semibold text-white sm:text-xl">{s.title}</h3>
-              <p className="mt-1.5 max-w-lg text-sm leading-relaxed text-white/70">{s.text}</p>
+              <h3 className="text-lg font-semibold text-white sm:text-xl">
+                {t(`items.${s.id}.title`)}
+              </h3>
+              <p className="mt-1.5 max-w-lg text-sm leading-relaxed text-white/70">
+                {t(`items.${s.id}.text`)}
+              </p>
             </div>
           </div>
         ))}
       </div>
 
       {/* Tabs */}
-      <div role="tablist" aria-label="Services" className="grid grid-cols-4 gap-2 px-2 pb-2 pt-4 sm:gap-3">
+      <div role="tablist" aria-label={t("tabsLabel")} className="grid grid-cols-4 gap-2 px-2 pb-2 pt-4 sm:gap-3">
         {slides.map((s, i) => (
           <button
-            key={s.title}
+            key={s.id}
             role="tab"
             aria-selected={i === index}
             onClick={() => setIndex(i)}
@@ -94,7 +78,7 @@ export default function HeroSlider() {
               className={`mt-2 block text-xs transition-colors sm:text-sm ${i === index ? "text-white" : "text-white/45 group-hover:text-white/75"
                 }`}
             >
-              {s.tab}
+              {t(`items.${s.id}.tab`)}
             </span>
           </button>
         ))}
