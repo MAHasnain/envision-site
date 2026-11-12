@@ -1,0 +1,339 @@
+{
+  "Meta": {
+    "title": "Envision Consulting",
+    "description": "IT consulting, cybersecurity and data solutions for a stronger, more secure and intelligent future in France."
+  },
+  "Nav": {
+    "home": "Home", "services": "Services", "about": "About Us", "insights": "Insights", "contact": "Contact Us",
+    "cta": "Get in touch", "language": "Language", "openMenu": "Open menu", "closeMenu": "Close menu"
+  },
+  "Footer": {
+    "general": "General", "home": "Home", "services": "Services", "about": "About", "contact": "Contact",
+    "dataCenter": "Data Center and Infrastructure", "cloud": "Cloud Services", "cyber": "Cybersecurity", "ai": "AI & Automation",
+    "resources": "Resources", "blog": "Blog", "terms": "Terms & Conditions", "privacy": "Privacy Statement",
+    "disclaimer": "Disclaimer", "imprint": "Imprint", "cookies": "Cookie Policy",
+    "copyright": "Copyright © 2026 Envision Consulting"
+  },
+  "Hero": {
+    "eyebrow": "People · Technology · Progress",
+    "title": "Building Smarter, more Resilient Tomorrow",
+    "text": "IT consulting, cybersecurity and data solutions for a stronger, more secure and intelligent future in France.",
+    "ctaPrimary": "Get in touch", "ctaSecondary": "Our Services",
+    "statYearsValue": "15+", "statYears": "years of technology delivery across GCC",
+    "statCountriesValue": "4", "statCountries": "countries: Saudi Arabia, UAE, Germany, France"
+  },
+  "Services": {
+    "tabsLabel": "Services",
+    "learnMore": "Learn more",
+    "exploreAll": "Explore all services",
+    "next": "Next service",
+    "items": {
+      "cloud-services": {
+        "title": "Cloud Services", "tab": "Cloud",
+        "text": "Secure, high-performance cloud environments built for enterprise workloads, with greater control, visibility and flexibility."
+      },
+      "data-center-infrastructure": {
+        "title": "Technology & Data Center Infrastructure", "tab": "Data Center",
+        "text": "High-availability infrastructure and data center environments designed for resilience, security and reliable operations."
+      },
+      "cybersecurity-nis2-compliance": {
+        "title": "Cybersecurity & NIS2", "tab": "Cybersecurity",
+        "text": "Strengthen cyber resilience, manage risk and prepare for evolving European regulatory requirements, including NIS2."
+      },
+      "ai-automation": {
+        "title": "AI & Automation", "tab": "AI & Automation",
+        "text": "Unlock efficiency and innovation with practical AI solutions and intelligent automation."
+      }
+    }
+  },
+  "Intro": {
+    "heading": "IT Services & Technology Consulting in France",
+    "text": "Envision Technologies help organizations modernize IT infrastructure, prepare for NIS2, and unlock value through data, cloud and AI.",
+    "cta": "About Us"
+  },
+  "ServicesSection": { "heading": "Technology expertise for what's next" },
+  "Presence": {
+    "eyebrow": "Our presence",
+    "heading": "Global Expertise. Local Presence",
+    "text": "Built on 15+ years of technology delivery across GCC, Envision brings proven enterprise expertise closer to clients across Europe.",
+    "countries": { "saudi": "Saudi Arabia", "uae": "United Arab Emirates", "germany": "Germany", "france": "France" }
+  },
+  "Focus": {
+    "eyebrow": "Our focus",
+    "heading": "Turning complex technology challenges into lasting business value.",
+    "p1": "We combine strategic insight with technical expertise to help organisations modernise securely, adopt emerging technologies and build digital environments designed for long-term growth.",
+    "p2": "From strengthening cyber resilience to implementing AI and improving data foundations, our work is focused on practical outcomes that support real business priorities.",
+    "cta": "About Us",
+    "imageAlt": "Envision team at work"
+  },
+  "WhyEnvision": {
+    "label": "Why Envision",
+    "heading": "A partner for what’s next",
+    "text": "At Envision Consulting we combine deep technical expertise with a practical, business-first approach, helping organizations across France build more secure, efficient and future-ready operations.",
+    "cta": "Contact Us"
+  },
+  "ContactCta": {
+    "eyebrow": "Let's build together",
+    "heading": "Start the Conversation",
+    "sub": "We're here to help",
+    "text": "Whether you have a specific project in mind or simply want to explore what's possible, we'd love to hear from you.",
+    "cta": "Contact Us"
+  },
+  "Process": {
+    "eyebrow": "Our process",
+    "heading": "From strategy to lasting value",
+    "text": "We combine technical expertise with strategic consulting to deliver practical solutions that solve today's challenges and create long-term value.",
+    "steps": {
+      "understand": { "title": "Understand", "text": "We take the time to understand your business, objectives and challenges." },
+      "design": { "title": "Design", "text": "We develop a tailored solution aligned with your goals and regulatory requirements." },
+      "implement": { "title": "Implement", "text": "We work with your teams to deliver and integrate the right technologies." },
+      "grow": { "title": "Grow", "text": "We support you beyond delivery, helping you adapt and achieve lasting value." }
+    }
+  },
+  "ServicesPage": {
+    "metaTitle": "Services",
+    "metaDescription": "Cloud, infrastructure, cybersecurity, data and AI: integrated technology services designed around real business needs.",
+    "hero": {
+      "eyebrow": "People · Technology · Progress",
+      "title": "Technology That Moves",
+      "accent": "Business Forward",
+      "text": "From cloud and infrastructure to cybersecurity, data, AI and smart buildings, we deliver integrated technology services designed around real business needs.",
+      "cta": "Get in touch"
+    },
+    "intro": {
+      "eyebrow": "Our services",
+      "heading": "Technology solutions for real business impact",
+      "text": "We help organisations design, secure and modernise their digital environments across cybersecurity, AI and data.",
+      "link": "Contact Us"
+    }
+  },
+  "ServicePages": {
+    "overviewLabel": "Overview",
+    "cta": "Get in touch",
+    "cloud-services": {
+      "title": "Cloud Services",
+      "metaDescription": "Secure and scalable cloud solutions designed to modernise infrastructure, improve agility and support long-term business growth.",
+      "hero": { "title": "Cloud Built", "accent": "With Purpose", "text": "Secure and scalable cloud solutions designed to modernise infrastructure, improve agility and support long-term business growth." },
+      "overview": {
+        "heading": "Cloud as foundation for lasting value",
+        "text": "We help organizations leverage the power of the cloud to increase agility, improve efficiency, and enable sustainable growth. From strategy and migration to management and optimization, our cloud services are designed to deliver secure, high-performance environments tailored to your business needs.",
+        "benefits": [
+          { "title": "Greater agility", "text": "Adapt quickly to changing business needs." },
+          { "title": "Optimised Performance", "text": "Modern, scalable infrastructure for what’s next." },
+          { "title": "Built in Security", "text": "Best practices and compliance from day one." },
+          { "title": "Measurable Value", "text": "Lower costs, higher efficiency and more innovation." }
+        ]
+      },
+      "features": {
+        "heading": "Modernise, migrate and optimise your cloud.",
+        "imageAlt": "Cloud services",
+        "items": [
+          { "title": "Cloud Strategy & Advisory", "text": "Assess, plan and design the right cloud roadmap for your business." },
+          { "title": "Cloud Migration", "text": "Seamless and secure migration with minimal disruption." },
+          { "title": "Cloud Infrastructure & Operations", "text": "Design, implement and manage scalable cloud environments." },
+          { "title": "Cloud Security & Compliance", "text": "Built-in security, governance and regulatory alignment (including NIS2)." },
+          { "title": "Cloud Optimisation", "text": "Improve performance, cost-efficiency and sustainability." }
+        ]
+      },
+      "band": {
+        "partnersLabel": "Technology partners",
+        "partnersText": "Working with leading cloud platforms.",
+        "missionLabel": "Our mission",
+        "missionText": "Our mission is to help organisations build secure, intelligent and resilient digital environments that support long-term growth."
+      }
+    },
+    "data-center-infrastructure": {
+      "title": "Data Center & Infrastructure",
+      "metaDescription": "Reliable, secure and scalable infrastructure solutions spanning data centers, networks, modernisation and managed operations.",
+      "hero": { "title": "Data Infrastructure Built", "accent": "For Resilience", "text": "Reliable, secure and scalable infrastructure solutions spanning data centers, networks, modernisation and managed operations." },
+      "overview": {
+        "heading": "A robust foundation for your business.",
+        "text": "We help organisations build and modernise their data infrastructure with a focus on reliability, scalability and security – from data center design to end-to-end management.",
+        "benefits": [
+          { "title": "High availability", "text": "Minimise downtime and ensure business continuity." },
+          { "title": "Scalability", "text": "Infrastructure that grows with your needs." },
+          { "title": "Security by design", "text": "Built-in physical and operational security." },
+          { "title": "Sustainable operations", "text": "Efficient, future-ready infrastructure." }
+        ]
+      },
+      "features": {
+        "heading": "Build data infrastructure your business can rely on.",
+        "imageAlt": "Data center infrastructure",
+        "items": [
+          { "title": "Data Center Design & Build", "text": "Plan and deliver modern, resilient data center facilities tailored to your requirements." },
+          { "title": "Infrastructure Modernisation", "text": "Upgrade legacy infrastructure to improve performance, efficiency and reliability." },
+          { "title": "Network & Connectivity", "text": "Design and implement secure, high-performance networks across locations." },
+          { "title": "Monitoring & Managed Services", "text": "Proactive monitoring, maintenance and support to ensure optimal performance." },
+          { "title": "Disaster Recovery & Business Continuity", "text": "Build resilience with robust backup and recovery solutions." },
+          { "title": "European Data Residency Options", "text": "Keep your data within Europe with secure, compliant hosting and storage options." }
+        ]
+      }
+    },
+    "cybersecurity-nis2-compliance": {
+      "title": "Cybersecurity & NIS2 Compliance",
+      "metaDescription": "Cybersecurity and NIS2 readiness solutions that strengthen resilience, reduce risk and help organisations meet evolving regulatory requirements.",
+      "hero": { "title": "Cyber Security Built", "accent": "Into Your Business", "text": "Cybersecurity and NIS2 readiness solutions that strengthen resilience, reduce risk and help organisations meet evolving regulatory requirements." },
+      "overview": {
+        "heading": "Security and compliance for a more resilient organisation.",
+        "text": "We take a proactive and practical approach to cybersecurity, combining technical expertise with regulatory understanding to help you reduce risk, strengthen governance and prepare for NIS2 and beyond.",
+        "benefits": [
+          { "title": "Risk visibility", "text": "Gain clarity on your risk exposure and priorities." },
+          { "title": "Operational resilience", "text": "Strengthen continuity and minimise disruption." },
+          { "title": "NIS2 Regulatory readiness", "text": "Prepare for NIS2 and related requirements." },
+          { "title": "Security by design", "text": "Embed security into your people, processes and technology." }
+        ]
+      },
+      "features": {
+        "heading": "Strengthen security. Build regulatory readiness.",
+        "imageAlt": "Cybersecurity and NIS2",
+        "items": [
+          { "title": "NIS2 Gap Analysis & Readiness", "text": "Assess obligations, identify gaps and define the right roadmap." },
+          { "title": "Security Governance & ISMS", "text": "Build governance frameworks and structured security management." },
+          { "title": "Threat Detection & Incident Response", "text": "Improve visibility, preparedness and response capabilities." },
+          { "title": "Security Architecture & Controls", "text": "Strengthen infrastructure, access, data and operational controls." },
+          { "title": "Compliance, Reporting & Awareness", "text": "Support reporting processes, supply-chain considerations and internal readiness." }
+        ]
+      }
+    },
+    "ai-automation": {
+      "title": "AI & Automation",
+      "metaDescription": "Practical AI and automation solutions that streamline operations, improve decisions and turn business challenges into measurable outcomes.",
+      "hero": { "title": "AI That Works", "accent": "For Your Business", "text": "Practical AI and automation solutions that streamline operations, improve decisions and turn business challenges into measurable outcomes." },
+      "overview": {
+        "heading": "Intelligent solutions for real-world impact.",
+        "text": "From strategy to implementation, we deliver practical AI and automation solutions that solve real business challenges and help you operate smarter, faster and more efficiently.",
+        "benefits": [
+          { "title": "Higher efficiency", "text": "Automate repetitive tasks and streamline operations." },
+          { "title": "Better decisions", "text": "Unlock insights from your data with AI." },
+          { "title": "Scalable solutions", "text": "Built to grow with your business." },
+          { "title": "Responsible AI", "text": "Secure, ethical and compliant by design." }
+        ]
+      },
+      "features": {
+        "heading": "Turn AI potential into practical solutions.",
+        "imageAlt": "AI and automation",
+        "items": [
+          { "title": "AI Strategy & Advisory", "text": "Identify opportunities, define use cases and build a roadmap for measurable impact." },
+          { "title": "Process Automation", "text": "Automate workflows across functions to reduce manual effort and increase efficiency." },
+          { "title": "Data & AI Solutions", "text": "Design and implement data platforms and AI models tailored to your business needs." },
+          { "title": "System Integration", "text": "Seamlessly integrate AI and automation into your existing technology stack." },
+          { "title": "Governance & Responsible AI", "text": "Ensure security, compliance and ethical use of AI across your organisation." }
+        ]
+      }
+    }
+  },
+  "About": {
+    "meta": {
+      "title": "About Us",
+      "description": "For more than 15 years, Envision has delivered technology solutions across complex business environments. Today, we bring that experience to France and Europe."
+    },
+    "hero": {
+      "title": "Technology",
+      "accent": "Built on Experience",
+      "text": "For more than 15 years, Envision has delivered technology solutions across complex business environments. Today, we bring that experience to France and Europe.",
+      "cta": "Get in touch"
+    },
+    "story": {
+      "eyebrow": "Our story",
+      "heading": "Helping organizations navigate an increasingly digital world.",
+      "paragraphs": [
+        "Envision Consulting brings together technology expertise, strategic thinking and practical delivery to help organisations solve complex business and technology challenges.",
+        "Building on more than 15 years of experience in GCC, we now support businesses across France and Europe in areas including cybersecurity and NIS2 compliance, AI-enabled transformation, data infrastructure and integration, and IT consulting.",
+        "Our approach is simple: understand the business challenge first, then design technology solutions that create measurable and sustainable value."
+      ],
+      "imageAlt": "Envision team"
+    },
+    "values": {
+      "title": "Our values",
+      "integrity": { "title": "Integrity", "text": "We provide clear, independent advice and build relationships based on trust and transparency." },
+      "impact": { "title": "Impact", "text": "We focus on technology solutions that deliver measurable business and operational outcomes." },
+      "collaboration": { "title": "Collaboration", "text": "We work closely with clients, partners and technology teams to create solutions that work in the real world." },
+      "innovation": { "title": "Innovation", "text": "We continuously explore new technologies and approaches that can create practical value for our clients." }
+    },
+    "mission": {
+      "label": "Our mission",
+      "text": "Our mission is to help organisations build secure, intelligent and resilient digital environments that support long-term growth."
+    },
+    "why": {
+      "eyebrow": "Why Envision",
+      "line1": "Technical Expertise",
+      "line2": "Business understanding",
+      "lead": "Technology projects succeed when technical expertise is combined with an understanding of business, regulation and people.",
+      "text": "Envision works as a long-term technology partner, helping organisations make informed decisions, reduce complexity and implement solutions built for sustainable growth.",
+      "imageAlt": "Modern office",
+      "advisory": { "title": "Strategic Advisory", "text": "Technology decisions aligned with business priorities." },
+      "support": { "title": "Dedicated Support", "text": "Support team with capabilities to ensure effective delivery." },
+      "regulatory": { "title": "Regulatory Expertise", "text": "Understanding of Cybersecurity (NIS2), data protection and evolving technology regulations." },
+      "delivery": { "title": "End-to-end delivery", "text": "From assessment and strategy through implementation and optimisation." }
+    },
+    "approach": {
+      "eyebrow": "Our approach",
+      "heading": "From technology strategy to implementation",
+      "paragraphs": [
+        "We combine strategic consulting with technical delivery to help organisations modernise securely and responsibly.",
+        "Our expertise spans IT consulting, cybersecurity and NIS2 compliance, artificial intelligence, data solutions and systems integration, allowing us to address both business priorities and technical requirements."
+      ],
+      "cta": "Our Services"
+    }
+  },
+  "Insights": {
+    "meta": {
+      "title": "Insights",
+      "description": "Practical thinking on cybersecurity, NIS2, cloud, data and AI from the Envision team."
+    },
+    "hero": {
+      "eyebrow": "Insights",
+      "title": "Perspectives on",
+      "accent": "Technology & Regulation",
+      "text": "Practical thinking on cybersecurity, NIS2, cloud, data and AI from the Envision team."
+    },
+    "noneYet": "New articles are on their way. In the meantime, explore our services or get in touch.",
+    "featured": "Featured",
+    "readArticle": "Read article",
+    "minRead": "{count} min read",
+    "latest": "Latest articles",
+    "filterLabel": "Filter by topic",
+    "all": "All",
+    "emptyTopic": "No articles in this topic yet.",
+    "readPrefix": "Read:",
+    "expertise": { "eyebrow": "Our expertise", "heading": "The work behind the articles" },
+    "categories": {
+      "cybersecurity": "Cybersecurity & NIS2",
+      "cloud": "Cloud",
+      "infrastructure": "Data & Infrastructure",
+      "ai": "AI & Automation"
+    },
+    "article": { "back": "All insights", "keepReading": "Keep reading", "by": "Envision Consulting" }
+  },
+  "Contact": {
+    "meta": {
+      "title": "Contact Us",
+      "description": "Whether you have a question, a project in mind, or simply want to learn more, we would love to hear from you."
+    },
+    "hero": {
+      "eyebrow": "People · Technology · Progress",
+      "title": "Let's Talk about",
+      "accent": "what's next.",
+      "text": "Whether you have a question, a project in mind, or simply want to learn more, we would love to hear from you."
+    },
+    "details": { "title": "Our details", "address": "Address", "phone": "Phone" },
+    "why": {
+      "title": "Why Envision",
+      "advisory": { "title": "Strategic Advisory", "text": "Technology decisions aligned with business priorities." },
+      "delivery": { "title": "End-to-end delivery", "text": "From assessment and strategy through implementation and optimisation." },
+      "regulatory": { "title": "French Regulatory Expertise", "text": "Understanding of Cybersecurity (NIS2), data protection and evolving technology regulations." }
+    },
+    "form": {
+      "firstName": "First name", "lastName": "Last name", "email": "Email", "message": "Comment or message",
+      "consent": "I consent to having this website store my submitted information so they can respond to my inquiry.",
+      "submit": "Submit", "sending": "Sending…",
+      "successTitle": "Thank you",
+      "successText": "Your message has been sent. We will get back to you shortly.",
+      "errors": {
+        "validation": "Please check the highlighted fields and try again.",
+        "rate": "Too many messages sent. Please try again later.",
+        "server": "Something went wrong. Please try again, or call us directly."
+      }
+    }
+  }
+}

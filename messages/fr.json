@@ -1,0 +1,559 @@
+{
+ "Meta": {
+  "title": "Envision Consulting",
+  "description": "Conseil informatique, cybersécurité et solutions de données pour un avenir plus solide, plus sûr et plus intelligent en France."
+ },
+ "Nav": {
+  "home": "Accueil",
+  "services": "Services",
+  "about": "À propos",
+  "insights": "Analyses",
+  "contact": "Nous contacter",
+  "cta": "Nous contacter",
+  "language": "Langue",
+  "openMenu": "Ouvrir le menu",
+  "closeMenu": "Fermer le menu"
+ },
+ "Footer": {
+  "general": "Général",
+  "home": "Accueil",
+  "services": "Services",
+  "about": "À propos",
+  "contact": "Contact",
+  "dataCenter": "Data center et infrastructure",
+  "cloud": "Services cloud",
+  "cyber": "Cybersécurité",
+  "ai": "IA et automatisation",
+  "resources": "Ressources",
+  "blog": "Blog",
+  "terms": "Conditions générales",
+  "privacy": "Politique de confidentialité",
+  "disclaimer": "Avertissement",
+  "imprint": "Mentions légales",
+  "cookies": "Politique relative aux cookies",
+  "copyright": "Copyright © 2026 Envision Consulting"
+ },
+ "Hero": {
+  "eyebrow": "Humain · Technologie · Progrès",
+  "title": "Construire un avenir plus intelligent et plus résilient",
+  "text": "Conseil informatique, cybersécurité et solutions de données pour un avenir plus solide, plus sûr et plus intelligent en France.",
+  "ctaPrimary": "Contactez-nous",
+  "ctaSecondary": "Nos services",
+  "statYearsValue": "15+",
+  "statYears": "ans de réalisations technologiques dans les pays du CCG",
+  "statCountriesValue": "4",
+  "statCountries": "pays : Arabie saoudite, Émirats arabes unis, Allemagne, France"
+ },
+ "Services": {
+  "tabsLabel": "Services",
+  "learnMore": "En savoir plus",
+  "exploreAll": "Découvrir tous les services",
+  "next": "Service suivant",
+  "items": {
+   "cloud-services": {
+    "title": "Services cloud",
+    "tab": "Cloud",
+    "text": "Des environnements cloud sécurisés et haute performance, conçus pour les charges de travail des entreprises, avec plus de contrôle, de visibilité et de flexibilité."
+   },
+   "data-center-infrastructure": {
+    "title": "Infrastructure technologique et data center",
+    "tab": "Data center",
+    "text": "Des infrastructures et des environnements de data center à haute disponibilité, conçus pour la résilience, la sécurité et la fiabilité des opérations."
+   },
+   "cybersecurity-nis2-compliance": {
+    "title": "Cybersécurité et NIS2",
+    "tab": "Cybersécurité",
+    "text": "Renforcez votre cyber-résilience, maîtrisez les risques et préparez-vous aux exigences réglementaires européennes en évolution, notamment NIS2."
+   },
+   "ai-automation": {
+    "title": "IA et automatisation",
+    "tab": "IA et automatisation",
+    "text": "Libérez l'efficacité et l'innovation grâce à des solutions d'IA concrètes et à une automatisation intelligente."
+   }
+  }
+ },
+ "Intro": {
+  "heading": "Services informatiques et conseil technologique en France",
+  "text": "Envision Technologies aide les organisations à moderniser leur infrastructure informatique, à se préparer à NIS2 et à tirer parti des données, du cloud et de l'IA.",
+  "cta": "À propos"
+ },
+ "ServicesSection": {
+  "heading": "L'expertise technologique pour préparer demain"
+ },
+ "Presence": {
+  "eyebrow": "Notre présence",
+  "heading": "Une expertise mondiale. Une présence locale.",
+  "text": "Forte de plus de 15 ans de réalisations technologiques dans les pays du CCG, Envision rapproche une expertise d'entreprise éprouvée de ses clients à travers l'Europe.",
+  "countries": {
+   "saudi": "Arabie saoudite",
+   "uae": "Émirats arabes unis",
+   "germany": "Allemagne",
+   "france": "France"
+  }
+ },
+ "Focus": {
+  "eyebrow": "Notre mission",
+  "heading": "Transformer des défis technologiques complexes en valeur durable pour l'entreprise.",
+  "p1": "Nous associons vision stratégique et expertise technique pour aider les organisations à se moderniser en toute sécurité, à adopter les technologies émergentes et à bâtir des environnements numériques conçus pour une croissance à long terme.",
+  "p2": "Du renforcement de la cyber-résilience à la mise en œuvre de l'IA, en passant par l'amélioration des fondations de données, notre travail vise des résultats concrets qui répondent aux véritables priorités des entreprises.",
+  "cta": "À propos",
+  "imageAlt": "L'équipe Envision au travail"
+ },
+ "WhyEnvision": {
+  "label": "Pourquoi Envision",
+  "heading": "Un partenaire pour préparer demain",
+  "text": "Chez Envision Consulting, nous allions une expertise technique approfondie à une approche pragmatique centrée sur l'entreprise, afin d'aider les organisations en France à bâtir des opérations plus sûres, plus efficaces et prêtes pour l'avenir.",
+  "cta": "Nous contacter"
+ },
+ "ContactCta": {
+  "eyebrow": "Construisons ensemble",
+  "heading": "Engageons la conversation",
+  "sub": "Nous sommes là pour vous aider",
+  "text": "Que vous ayez un projet précis en tête ou que vous souhaitiez simplement explorer les possibilités, nous serions ravis d'échanger avec vous.",
+  "cta": "Nous contacter"
+ },
+ "Process": {
+  "eyebrow": "Notre méthode",
+  "heading": "De la stratégie à une valeur durable",
+  "text": "Nous associons expertise technique et conseil stratégique pour proposer des solutions concrètes qui répondent aux défis d'aujourd'hui et créent de la valeur à long terme.",
+  "steps": {
+   "understand": {
+    "title": "Comprendre",
+    "text": "Nous prenons le temps de comprendre votre activité, vos objectifs et vos défis."
+   },
+   "design": {
+    "title": "Concevoir",
+    "text": "Nous élaborons une solution sur mesure, alignée sur vos objectifs et vos exigences réglementaires."
+   },
+   "implement": {
+    "title": "Mettre en œuvre",
+    "text": "Nous travaillons avec vos équipes pour déployer et intégrer les bonnes technologies."
+   },
+   "grow": {
+    "title": "Évoluer",
+    "text": "Nous vous accompagnons au-delà de la livraison, pour vous aider à vous adapter et à créer une valeur durable."
+   }
+  }
+ },
+ "ServicesPage": {
+  "metaTitle": "Services",
+  "metaDescription": "Cloud, infrastructure, cybersécurité, données et IA : des services technologiques intégrés, conçus autour des besoins réels des entreprises.",
+  "hero": {
+   "eyebrow": "Humain · Technologie · Progrès",
+   "title": "Une technologie qui fait avancer",
+   "accent": "votre entreprise",
+   "text": "Du cloud et de l'infrastructure à la cybersécurité, aux données, à l'IA et aux bâtiments intelligents, nous proposons des services technologiques intégrés, conçus autour des besoins réels des entreprises.",
+   "cta": "Contactez-nous"
+  },
+  "intro": {
+   "eyebrow": "Nos services",
+   "heading": "Des solutions technologiques à fort impact pour l'entreprise",
+   "text": "Nous aidons les organisations à concevoir, sécuriser et moderniser leurs environnements numériques en matière de cybersécurité, d'IA et de données.",
+   "link": "Nous contacter"
+  }
+ },
+ "ServicePages": {
+  "overviewLabel": "Vue d'ensemble",
+  "cta": "Contactez-nous",
+  "cloud-services": {
+   "title": "Services cloud",
+   "metaDescription": "Des solutions cloud sécurisées et évolutives, conçues pour moderniser l'infrastructure, gagner en agilité et soutenir la croissance à long terme de l'entreprise.",
+   "hero": {
+    "title": "Un cloud conçu",
+    "accent": "avec un objectif",
+    "text": "Des solutions cloud sécurisées et évolutives, conçues pour moderniser l'infrastructure, gagner en agilité et soutenir la croissance à long terme de l'entreprise."
+   },
+   "overview": {
+    "heading": "Le cloud, fondation d'une valeur durable",
+    "text": "Nous aidons les organisations à exploiter la puissance du cloud pour gagner en agilité, améliorer leur efficacité et permettre une croissance durable. De la stratégie à la migration, puis de la gestion à l'optimisation, nos services cloud sont conçus pour offrir des environnements sécurisés et performants, adaptés aux besoins de votre entreprise.",
+    "benefits": [
+     {
+      "title": "Plus d'agilité",
+      "text": "Adaptez-vous rapidement à l'évolution des besoins de l'entreprise."
+     },
+     {
+      "title": "Performance optimisée",
+      "text": "Une infrastructure moderne et évolutive pour préparer demain."
+     },
+     {
+      "title": "Sécurité intégrée",
+      "text": "Bonnes pratiques et conformité dès le premier jour."
+     },
+     {
+      "title": "Valeur mesurable",
+      "text": "Des coûts réduits, une efficacité accrue et davantage d'innovation."
+     }
+    ]
+   },
+   "features": {
+    "heading": "Modernisez, migrez et optimisez votre cloud.",
+    "imageAlt": "Services cloud",
+    "items": [
+     {
+      "title": "Stratégie et conseil cloud",
+      "text": "Évaluez, planifiez et concevez la feuille de route cloud adaptée à votre entreprise."
+     },
+     {
+      "title": "Migration vers le cloud",
+      "text": "Une migration fluide et sécurisée, avec un minimum de perturbations."
+     },
+     {
+      "title": "Infrastructure et exploitation cloud",
+      "text": "Concevez, mettez en œuvre et gérez des environnements cloud évolutifs."
+     },
+     {
+      "title": "Sécurité et conformité cloud",
+      "text": "Sécurité, gouvernance et alignement réglementaire intégrés (y compris NIS2)."
+     },
+     {
+      "title": "Optimisation du cloud",
+      "text": "Améliorez les performances, l'efficience des coûts et la durabilité."
+     }
+    ]
+   },
+   "band": {
+    "partnersLabel": "Partenaires technologiques",
+    "partnersText": "Nous travaillons avec les principales plateformes cloud.",
+    "missionLabel": "Notre mission",
+    "missionText": "Notre mission est d'aider les organisations à bâtir des environnements numériques sécurisés, intelligents et résilients, qui soutiennent une croissance à long terme."
+   }
+  },
+  "data-center-infrastructure": {
+   "title": "Data center et infrastructure",
+   "metaDescription": "Des solutions d'infrastructure fiables, sécurisées et évolutives couvrant les data centers, les réseaux, la modernisation et l'exploitation managée.",
+   "hero": {
+    "title": "Une infrastructure de données conçue",
+    "accent": "pour la résilience",
+    "text": "Des solutions d'infrastructure fiables, sécurisées et évolutives couvrant les data centers, les réseaux, la modernisation et l'exploitation managée."
+   },
+   "overview": {
+    "heading": "Une base solide pour votre entreprise.",
+    "text": "Nous aidons les organisations à bâtir et à moderniser leur infrastructure de données, en privilégiant la fiabilité, l'évolutivité et la sécurité  de la conception du data center à la gestion de bout en bout.",
+    "benefits": [
+     {
+      "title": "Haute disponibilité",
+      "text": "Réduisez les interruptions et assurez la continuité de l'activité."
+     },
+     {
+      "title": "Évolutivité",
+      "text": "Une infrastructure qui grandit avec vos besoins."
+     },
+     {
+      "title": "Sécurité dès la conception",
+      "text": "Une sécurité physique et opérationnelle intégrée."
+     },
+     {
+      "title": "Exploitation durable",
+      "text": "Une infrastructure efficace et prête pour l'avenir."
+     }
+    ]
+   },
+   "features": {
+    "heading": "Bâtissez une infrastructure de données sur laquelle votre entreprise peut compter.",
+    "imageAlt": "Infrastructure de data center",
+    "items": [
+     {
+      "title": "Conception et construction de data centers",
+      "text": "Planifiez et réalisez des data centers modernes et résilients, adaptés à vos exigences."
+     },
+     {
+      "title": "Modernisation de l'infrastructure",
+      "text": "Mettez à niveau les infrastructures existantes pour améliorer les performances, l'efficacité et la fiabilité."
+     },
+     {
+      "title": "Réseau et connectivité",
+      "text": "Concevez et déployez des réseaux sécurisés et performants entre vos différents sites."
+     },
+     {
+      "title": "Supervision et services managés",
+      "text": "Supervision proactive, maintenance et support pour garantir des performances optimales."
+     },
+     {
+      "title": "Reprise après sinistre et continuité d'activité",
+      "text": "Renforcez votre résilience grâce à des solutions de sauvegarde et de reprise robustes."
+     },
+     {
+      "title": "Options de résidence des données en Europe",
+      "text": "Conservez vos données en Europe grâce à des options d'hébergement et de stockage sécurisées et conformes."
+     }
+    ]
+   }
+  },
+  "cybersecurity-nis2-compliance": {
+   "title": "Cybersécurité et conformité NIS2",
+   "metaDescription": "Des solutions de cybersécurité et de préparation à NIS2 qui renforcent la résilience, réduisent les risques et aident les organisations à répondre aux exigences réglementaires en évolution.",
+   "hero": {
+    "title": "Une cybersécurité intégrée",
+    "accent": "au cœur de votre entreprise",
+    "text": "Des solutions de cybersécurité et de préparation à NIS2 qui renforcent la résilience, réduisent les risques et aident les organisations à répondre aux exigences réglementaires en évolution."
+   },
+   "overview": {
+    "heading": "Sécurité et conformité pour une organisation plus résiliente.",
+    "text": "Nous adoptons une approche proactive et pragmatique de la cybersécurité, en associant expertise technique et connaissance de la réglementation pour vous aider à réduire les risques, renforcer la gouvernance et vous préparer à NIS2 et au-delà.",
+    "benefits": [
+     {
+      "title": "Visibilité sur les risques",
+      "text": "Gagnez en clarté sur votre exposition aux risques et vos priorités."
+     },
+     {
+      "title": "Résilience opérationnelle",
+      "text": "Renforcez la continuité et limitez les perturbations."
+     },
+     {
+      "title": "Préparation réglementaire à NIS2",
+      "text": "Préparez-vous à NIS2 et aux exigences connexes."
+     },
+     {
+      "title": "Sécurité dès la conception",
+      "text": "Intégrez la sécurité à vos équipes, vos processus et votre technologie."
+     }
+    ]
+   },
+   "features": {
+    "heading": "Renforcez la sécurité. Construisez votre conformité réglementaire.",
+    "imageAlt": "Cybersécurité et NIS2",
+    "items": [
+     {
+      "title": "Analyse des écarts et préparation à NIS2",
+      "text": "Évaluez vos obligations, identifiez les écarts et définissez la bonne feuille de route."
+     },
+     {
+      "title": "Gouvernance de la sécurité et SMSI",
+      "text": "Mettez en place des cadres de gouvernance et une gestion structurée de la sécurité."
+     },
+     {
+      "title": "Détection des menaces et réponse aux incidents",
+      "text": "Améliorez la visibilité, la préparation et les capacités de réponse."
+     },
+     {
+      "title": "Architecture et mesures de sécurité",
+      "text": "Renforcez les contrôles de l'infrastructure, des accès, des données et des opérations."
+     },
+     {
+      "title": "Conformité, reporting et sensibilisation",
+      "text": "Soutenez les processus de reporting, la prise en compte de la chaîne d'approvisionnement et la préparation interne."
+     }
+    ]
+   }
+  },
+  "ai-automation": {
+   "title": "IA et automatisation",
+   "metaDescription": "Des solutions d'IA et d'automatisation concrètes qui rationalisent les opérations, améliorent les décisions et transforment les défis de l'entreprise en résultats mesurables.",
+   "hero": {
+    "title": "Une IA qui fonctionne",
+    "accent": "pour votre entreprise",
+    "text": "Des solutions d'IA et d'automatisation concrètes qui rationalisent les opérations, améliorent les décisions et transforment les défis de l'entreprise en résultats mesurables."
+   },
+   "overview": {
+    "heading": "Des solutions intelligentes à impact réel.",
+    "text": "De la stratégie à la mise en œuvre, nous proposons des solutions d'IA et d'automatisation concrètes qui répondent à de vrais défis d'entreprise et vous aident à travailler de façon plus intelligente, plus rapide et plus efficace.",
+    "benefits": [
+     {
+      "title": "Efficacité accrue",
+      "text": "Automatisez les tâches répétitives et rationalisez les opérations."
+     },
+     {
+      "title": "De meilleures décisions",
+      "text": "Tirez des enseignements de vos données grâce à l'IA."
+     },
+     {
+      "title": "Solutions évolutives",
+      "text": "Conçues pour grandir avec votre entreprise."
+     },
+     {
+      "title": "IA responsable",
+      "text": "Sécurisée, éthique et conforme dès la conception."
+     }
+    ]
+   },
+   "features": {
+    "heading": "Transformez le potentiel de l'IA en solutions concrètes.",
+    "imageAlt": "IA et automatisation",
+    "items": [
+     {
+      "title": "Stratégie et conseil en IA",
+      "text": "Identifiez les opportunités, définissez les cas d'usage et bâtissez une feuille de route à impact mesurable."
+     },
+     {
+      "title": "Automatisation des processus",
+      "text": "Automatisez les flux de travail entre les fonctions pour réduire l'effort manuel et gagner en efficacité."
+     },
+     {
+      "title": "Solutions de données et d'IA",
+      "text": "Concevez et mettez en œuvre des plateformes de données et des modèles d'IA adaptés aux besoins de votre entreprise."
+     },
+     {
+      "title": "Intégration de systèmes",
+      "text": "Intégrez l'IA et l'automatisation à votre environnement technologique existant, sans friction."
+     },
+     {
+      "title": "Gouvernance et IA responsable",
+      "text": "Garantissez la sécurité, la conformité et l'usage éthique de l'IA au sein de votre organisation."
+     }
+    ]
+   }
+  }
+ },
+ "About": {
+  "meta": {
+   "title": "À propos",
+   "description": "Depuis plus de 15 ans, Envision propose des solutions technologiques dans des environnements d'entreprise complexes. Aujourd'hui, nous mettons cette expérience au service de la France et de l'Europe."
+  },
+  "hero": {
+   "title": "Une technologie",
+   "accent": "forgée par l'expérience",
+   "text": "Depuis plus de 15 ans, Envision propose des solutions technologiques dans des environnements d'entreprise complexes. Aujourd'hui, nous mettons cette expérience au service de la France et de l'Europe.",
+   "cta": "Contactez-nous"
+  },
+  "story": {
+   "eyebrow": "Notre histoire",
+   "heading": "Aider les organisations à s'orienter dans un monde de plus en plus numérique.",
+   "paragraphs": [
+    "Envision Consulting réunit expertise technologique, réflexion stratégique et exécution pragmatique pour aider les organisations à résoudre des défis métier et technologiques complexes.",
+    "Forts de plus de 15 ans d'expérience dans les pays du CCG, nous accompagnons désormais les entreprises en France et en Europe dans des domaines tels que la cybersécurité et la conformité NIS2, la transformation fondée sur l'IA, l'infrastructure et l'intégration de données, ainsi que le conseil informatique.",
+    "Notre approche est simple : comprendre d'abord le défi métier, puis concevoir des solutions technologiques qui créent une valeur mesurable et durable."
+   ],
+   "imageAlt": "L'équipe Envision"
+  },
+  "values": {
+   "title": "Nos valeurs",
+   "integrity": {
+    "title": "Intégrité",
+    "text": "Nous donnons des conseils clairs et indépendants, et nous construisons des relations fondées sur la confiance et la transparence."
+   },
+   "impact": {
+    "title": "Impact",
+    "text": "Nous nous concentrons sur des solutions technologiques qui produisent des résultats mesurables pour l'activité et les opérations."
+   },
+   "collaboration": {
+    "title": "Collaboration",
+    "text": "Nous travaillons en étroite collaboration avec les clients, les partenaires et les équipes techniques pour créer des solutions qui fonctionnent dans la réalité."
+   },
+   "innovation": {
+    "title": "Innovation",
+    "text": "Nous explorons en permanence de nouvelles technologies et approches susceptibles de créer une valeur concrète pour nos clients."
+   }
+  },
+  "mission": {
+   "label": "Notre mission",
+   "text": "Notre mission est d’aider les organisations à bâtir des environnements numériques sécurisés, intelligents et résilients, qui soutiennent une croissance à long terme."
+  },
+  "why": {
+   "eyebrow": "Pourquoi Envision",
+   "line1": "Expertise technique",
+   "line2": "Compréhension de l'entreprise",
+   "lead": "Les projets technologiques réussissent lorsque l'expertise technique s'allie à la compréhension de l'entreprise, de la réglementation et des personnes.",
+   "text": "Envision agit en partenaire technologique à long terme, en aidant les organisations à prendre des décisions éclairées, à réduire la complexité et à mettre en œuvre des solutions conçues pour une croissance durable.",
+   "imageAlt": "Bureau moderne",
+   "advisory": {
+    "title": "Conseil stratégique",
+    "text": "Des décisions technologiques alignées sur les priorités de l'entreprise."
+   },
+   "support": {
+    "title": "Support dédié",
+    "text": "Une équipe de support dotée des compétences nécessaires pour garantir une livraison efficace."
+   },
+   "regulatory": {
+    "title": "Expertise réglementaire",
+    "text": "Connaissance de la cybersécurité (NIS2), de la protection des données et de l'évolution des réglementations technologiques."
+   },
+   "delivery": {
+    "title": "Livraison de bout en bout",
+    "text": "De l'évaluation et de la stratégie jusqu'à la mise en œuvre et à l'optimisation."
+   }
+  },
+  "approach": {
+   "eyebrow": "Notre approche",
+   "heading": "De la stratégie technologique à la mise en œuvre",
+   "paragraphs": [
+    "Nous associons conseil stratégique et exécution technique pour aider les organisations à se moderniser de manière sûre et responsable.",
+    "Notre expertise couvre le conseil informatique, la cybersécurité et la conformité NIS2, l'intelligence artificielle, les solutions de données et l'intégration de systèmes, ce qui nous permet de répondre à la fois aux priorités métier et aux exigences techniques."
+   ],
+   "cta": "Nos services"
+  }
+ },
+ "Insights": {
+  "meta": {
+   "title": "Analyses",
+   "description": "Une réflexion pragmatique sur la cybersécurité, NIS2, le cloud, les données et l'IA, proposée par l'équipe Envision."
+  },
+  "hero": {
+   "eyebrow": "Analyses",
+   "title": "Perspectives sur",
+   "accent": "la technologie et la réglementation",
+   "text": "Une réflexion pragmatique sur la cybersécurité, NIS2, le cloud, les données et l'IA, proposée par l'équipe Envision."
+  },
+  "noneYet": "De nouveaux articles arrivent bientôt. En attendant, découvrez nos services ou contactez-nous.",
+  "featured": "À la une",
+  "readArticle": "Lire l'article",
+  "minRead": "{count} min de lecture",
+  "latest": "Derniers articles",
+  "filterLabel": "Filtrer par thème",
+  "all": "Tous",
+  "emptyTopic": "Aucun article sur ce thème pour le moment.",
+  "readPrefix": "Lire :",
+  "expertise": {
+   "eyebrow": "Notre expertise",
+   "heading": "Le travail derrière les articles"
+  },
+  "categories": {
+   "cybersecurity": "Cybersécurité et NIS2",
+   "cloud": "Cloud",
+   "infrastructure": "Données et infrastructure",
+   "ai": "IA et automatisation"
+  },
+  "article": {
+   "back": "Toutes les analyses",
+   "keepReading": "Continuer la lecture",
+   "by": "Envision Consulting"
+  }
+ },
+ "Contact": {
+  "meta": {
+   "title": "Nous contacter",
+   "description": "Que vous ayez une question, un projet en tête ou que vous souhaitiez simplement en savoir plus, nous serions ravis d'échanger avec vous."
+  },
+  "hero": {
+   "eyebrow": "Humain · Technologie · Progrès",
+   "title": "Parlons de",
+   "accent": "la suite.",
+   "text": "Que vous ayez une question, un projet en tête ou que vous souhaitiez simplement en savoir plus, nous serions ravis d'échanger avec vous."
+  },
+  "details": {
+   "title": "Nos coordonnées",
+   "address": "Adresse",
+   "phone": "Téléphone"
+  },
+  "why": {
+   "title": "Pourquoi Envision",
+   "advisory": {
+    "title": "Conseil stratégique",
+    "text": "Des décisions technologiques alignées sur les priorités de l'entreprise."
+   },
+   "delivery": {
+    "title": "Livraison de bout en bout",
+    "text": "De l'évaluation et de la stratégie jusqu'à la mise en œuvre et à l'optimisation."
+   },
+   "regulatory": {
+    "title": "Expertise réglementaire française",
+    "text": "Connaissance de la cybersécurité (NIS2), de la protection des données et de l'évolution des réglementations technologiques."
+   }
+  },
+  "form": {
+   "firstName": "Prénom",
+   "lastName": "Nom",
+   "email": "E-mail",
+   "message": "Commentaire ou message",
+   "consent": "J'accepte que ce site web conserve les informations que j'ai transmises afin de pouvoir répondre à ma demande.",
+   "submit": "Envoyer",
+   "sending": "Envoi en cours…",
+   "successTitle": "Merci",
+   "successText": "Votre message a bien été envoyé. Nous reviendrons vers vous très rapidement.",
+   "errors": {
+    "validation": "Veuillez vérifier les champs en surbrillance et réessayer.",
+    "rate": "Trop de messages envoyés. Veuillez réessayer plus tard.",
+    "server": "Une erreur s'est produite. Veuillez réessayer ou nous appeler directement."
+   }
+  }
+ }
+}
