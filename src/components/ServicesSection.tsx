@@ -4,15 +4,16 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { services } from "@/data/services";
 import Reveal from "./Reveal";
 
 const n = services.length;
-// 3 copies: [A][B][C]. Hum hamesha beech wale set (B) ke andar rehte hain,
-// aur scroll rukne par chupke se same position pe wapas jump karte hain = infinite loop.
 const sets = [0, 1, 2];
 
 export default function ServicesSection() {
+  const t = useTranslations("Services");
+  const tSection = useTranslations("ServicesSection");
   const scroller = useRef<HTMLDivElement>(null);
 
   const setWidth = (el: HTMLDivElement) => {
@@ -61,7 +62,7 @@ export default function ServicesSection() {
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-6">
             <h2 className="max-w-xl text-3xl font-semibold leading-[1.1] tracking-tight sm:text-4xl">
-              Technology expertise for what&rsquo;s next
+              {tSection("heading")}
             </h2>
 
             <div className="flex items-center gap-3">
@@ -69,11 +70,11 @@ export default function ServicesSection() {
                 href="/services"
                 className="rounded-full border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-picton hover:text-picton-200"
               >
-                Explore all services
+                {t("exploreAll")}
               </Link>
               <button
                 onClick={next}
-                aria-label="Next service"
+                aria-label={t("next")}
                 className="grid h-10 w-10 place-items-center rounded-full border border-white/20 bg-white/5 text-white transition-colors hover:border-picton hover:text-picton-200"
               >
                 <ChevronRight size={18} />
@@ -93,9 +94,10 @@ export default function ServicesSection() {
             {sets.map((set) =>
               services.map((s) => {
                 const clone = set !== 1;
+                const title = t(`items.${s.id}.title`);
                 return (
                   <div
-                    key={`${set}-${s.title}`}
+                    key={`${set}-${s.id}`}
                     className="w-75 shrink-0 snap-start sm:w-95 lg:w-110"
                   >
                     <article
@@ -105,21 +107,23 @@ export default function ServicesSection() {
                       <div className="relative aspect-16/10 overflow-hidden rounded-xl bg-black">
                         <Image
                           src={s.src}
-                          alt={clone ? "" : s.title}
+                          alt={clone ? "" : title}
                           fill
                           sizes="(min-width: 1024px) 440px, 380px"
                           className="object-cover"
                         />
                       </div>
                       <div className="px-3 pb-4 pt-5">
-                        <h3 className="text-lg font-semibold text-white">{s.title}</h3>
-                        <p className="mt-2 text-sm leading-relaxed text-white/60">{s.text}</p>
+                        <h3 className="text-lg font-semibold text-white">{title}</h3>
+                        <p className="mt-2 text-sm leading-relaxed text-white/60">
+                          {t(`items.${s.id}.text`)}
+                        </p>
                         <Link
                           href={s.href}
                           tabIndex={clone ? -1 : undefined}
                           className="mt-4 inline-block text-sm font-medium text-picton-200 hover:text-picton-100 hover:underline"
                         >
-                          Learn more
+                          {t("learnMore")}
                         </Link>
                       </div>
                     </article>
