@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Logo from "./Logo";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
@@ -46,13 +46,7 @@ export default async function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.2fr_repeat(3,1fr)_1.3fr]">
           <div>
             <Link href="/" aria-label="Envision Consulting">
-              <Image
-                src="/images/logo-white.png"
-                alt="Envision Consulting"
-                width={128}
-                height={55}
-                className="h-10 w-auto "
-              />
+              <Logo className="h-10 w-auto" />
             </Link>
           </div>
 
@@ -75,6 +69,7 @@ export default async function Footer() {
             <h3 className="text-sm font-semibold text-white">{t("contact")}</h3>
             <ul className="mt-4 space-y-3 text-sm text-white/60">
               <li>
+                {/* TODO: asli LinkedIn URL lagao */}
                 <a href="#" className="transition-colors hover:text-picton-200">LinkedIn</a>
               </li>
               <li>

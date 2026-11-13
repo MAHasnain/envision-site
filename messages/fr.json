@@ -12,7 +12,9 @@
   "cta": "Nous contacter",
   "language": "Langue",
   "openMenu": "Ouvrir le menu",
-  "closeMenu": "Fermer le menu"
+  "closeMenu": "Fermer le menu",
+  "themeToLight": "Passer en mode clair",
+  "themeToDark": "Passer en mode sombre"
  },
  "Footer": {
   "general": "Général",

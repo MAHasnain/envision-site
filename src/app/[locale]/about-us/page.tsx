@@ -71,7 +71,7 @@ export default function AboutPage() {
           </div>
           <Reveal delay={0.1}>
             <div className={frame}>
-              <div className="relative isolate aspect-[4/3] overflow-hidden rounded-xl bg-black">
+              <div className="relative isolate aspect-4/3 overflow-hidden rounded-xl bg-black">
                 <BlueImage src={aboutStory.image} alt={t("story.imageAlt")} sizes="(min-width: 1024px) 600px, 100vw" strength="soft" />
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function AboutPage() {
             {aboutValues.map((v, i) => (
               <li key={v.id}>
                 <Reveal delay={i * 0.08} className="h-full">
-                  <div className="h-full rounded-2xl border border-white/10 bg-white/[0.04] p-6">
+                  <div className="h-full rounded-2xl border border-white/10 bg-white/4 p-6">
                     <IconBadge name={v.icon} />
                     <h3 className="mt-5 text-lg font-semibold">{t(`values.${v.id}.title`)}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-white/60">{t(`values.${v.id}.text`)}</p>

@@ -7,16 +7,17 @@ import { routing } from "@/i18n/routing";
 export default function LocaleSwitcher() {
   const t = useTranslations("Nav");
   const locale = useLocale();
-  const pathname = usePathname(); // locale prefix ke bina, e.g. /services/cloud-services
+  const pathname = usePathname(); 
   const router = useRouter();
 
   return (
-    <div className="flex items-center text-sm" role="group" aria-label={t("language")}>
+    <div className="notranslate flex items-center text-sm" translate="no" role="group" aria-label={t("language")}>
       {routing.locales.map((l, i) => (
         <span key={l} className="flex items-center">
           {i > 0 && <span className="mx-2 text-white/25">|</span>}
           <button
             lang={l}
+            translate="no"
             aria-pressed={l === locale}
             onClick={() => router.replace(pathname, { locale: l })}
             className={

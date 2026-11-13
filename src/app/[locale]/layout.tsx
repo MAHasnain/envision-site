@@ -8,9 +8,10 @@ import { routing } from "@/i18n/routing";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageBackground from "@/components/PageBackground";
+import ThemeScript from "@/components/ThemeScript";
 
 const manrope = Manrope({
-  subsets: ["latin"], 
+  subsets: ["latin"],
   variable: "--font-manrope",
   display: "swap",
 });
@@ -32,7 +33,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   if (!hasLocale(routing.locales, locale)) notFound();
 
   return (
-    <html lang={locale} className={manrope.variable}>
+    <html lang={locale} className={manrope.variable} data-theme="dark" suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
       <body className="bg-ink font-sans text-white antialiased">
         <NextIntlClientProvider>
           <Navbar />

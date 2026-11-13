@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import LocaleSwitcher from "./LocaleSwitcher";
+import Logo from "./Logo";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const t = useTranslations("Nav");
@@ -28,7 +29,6 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Footer viewport mein aate hi navbar upar chala jaye
   useEffect(() => {
     const footer = document.querySelector("footer");
     if (!footer) return;
@@ -46,7 +46,7 @@ export default function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-4 z-50 px-4 transition-[transform,visibility] duration-300 ease-out motion-reduce:transition-none ${
-        hidden ? "invisible translate-y-[-200%]" : "visible translate-y-0"
+        hidden ? "invisible -translate-y-[200%]" : "visible translate-y-0"
       }`}
     >
       <nav
@@ -54,14 +54,7 @@ export default function Navbar() {
         className="glass-nav relative mx-auto flex h-14 max-w-6xl items-center justify-between rounded-full pl-6 pr-2"
       >
         <Link href="/" aria-label="Envision Consulting">
-          <Image
-            src="/images/logo-white.png"
-            alt="Envision Consulting"
-            width={128}
-            height={55}
-            priority
-            className="h-9 w-auto"
-          />
+          <Logo priority />
         </Link>
 
         <ul className="hidden items-center gap-8 md:flex">
@@ -76,9 +69,10 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-4 md:flex">
           <LocaleSwitcher />
+          <ThemeToggle />
           <Link
             href="/contact-us"
-            className="rounded-full bg-picton px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-picton-300"
+            className="rounded-full bg-picton px-5 py-2.5 text-sm font-semibold text-on-accent transition-colors hover:bg-picton-300"
           >
             {t("cta")}
           </Link>
@@ -108,8 +102,9 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-            <div className="border-t border-white/10 px-3 pb-2 pt-3">
+            <div className="flex items-center justify-between border-t border-white/10 px-3 pb-2 pt-3">
               <LocaleSwitcher />
+              <ThemeToggle />
             </div>
           </div>
         )}
