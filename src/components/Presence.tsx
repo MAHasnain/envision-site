@@ -1,16 +1,17 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Reveal from "./Reveal";
-import BlueImage from "./BlueImage";
+import LandmarkCard from "./LandmarkCard";
+import { KingdomCentre, BurjKhalifa, BrandenburgGate, EiffelTower } from "./landmarks";
 
-const countries = [
-  { id: "saudi", src: "/images/presence/saudia-arabia.jpg" },
-  { id: "uae", src: "/images/presence/UAE.jpg" },
-  { id: "germany", src: "/images/presence/germany.jpg" },
-  { id: "france", src: "/images/presence/france.jpg" },
-] as const;
+export default async function Presence() {
+  const t = await getTranslations("Presence");
 
-export default function Presence() {
-  const t = useTranslations("Presence");
+  const countries = [
+    { key: "saudi", icon: <KingdomCentre /> },
+    { key: "uae", icon: <BurjKhalifa /> },
+    { key: "germany", icon: <BrandenburgGate /> },
+    { key: "france", icon: <EiffelTower /> },
+  ] as const;
 
   return (
     <section className="border-t border-white/10 py-24 text-white sm:py-28">
@@ -23,33 +24,20 @@ export default function Presence() {
             </h2>
           </Reveal>
           <Reveal delay={0.08}>
-            <p className="max-w-lg text-lg leading-relaxed text-white/65 lg:pt-8">
-              {t("text")}
-            </p>
+            <p className="max-w-lg text-lg leading-relaxed text-white/65 lg:pt-8">{t("text")}</p>
           </Reveal>
         </div>
 
         <ul className="mt-14 grid grid-cols-2 gap-4 sm:gap-6 lg:grid-cols-4">
-          {countries.map((c, i) => {
-            const name = t(`countries.${c.id}`);
-            return (
-              <li key={c.id}>
-                <Reveal delay={i * 0.08}>
-                  <div className="relative isolate aspect-4/5 overflow-hidden rounded-2xl border border-white/10 bg-black">
-                    <BlueImage
-                      src={c.src}
-                      alt={name}
-                      sizes="(min-width: 1024px) 300px, 50vw"
-                      strength="full"
-                    />
-                    <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black via-black/60 to-transparent p-4 pt-20 sm:p-5 sm:pt-24">
-                      <h3 className="text-base font-semibold sm:text-lg">{name}</h3>
-                    </div>
-                  </div>
-                </Reveal>
-              </li>
-            );
-          })}
+          {countries.map((c, i) => (
+            <li key={c.key}>
+              <Reveal delay={i * 0.08} className="h-full">
+                <LandmarkCard name={t(`countries.${c.key}`)} delay={0.15 + i * 0.15}>
+                  {c.icon}
+                </LandmarkCard>
+              </Reveal>
+            </li>
+          ))}
         </ul>
       </div>
     </section>
