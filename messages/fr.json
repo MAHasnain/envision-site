@@ -558,13 +558,21 @@
    }
   }
  },
- "CookieConsent": {
-  "title": "Paramètres des cookies",
-  "accept": "Tout accepter",
-  "deny": "Tout refuser",
-  "manage": "Gérer les cookies",
-  "description": "Nous conservons votre choix pendant 180 jours. Vous pouvez le modifier à tout moment en sélectionnant « Gérer les cookies » en bas de page."
- },
+   "CookieConsent": {
+    "title": "Gérer le consentement",
+    "description": "Nous mémorisons vos choix sur cet appareil. Vous pouvez accepter ou refuser les technologies de marketing facultatives, ou personnaliser vos réglages. Fermer cette fenêtre avec × revient à refuser le marketing.",
+    "accept": "Accepter",
+    "deny": "Refuser",
+    "view": "Voir les préférences",
+    "save": "Enregistrer mes choix",
+    "functional": "Fonctionnel",
+    "always": "Toujours actif",
+    "functionalText": "Ces réglages assurent le fonctionnement du site et mémorisent vos choix, notamment votre décision concernant les cookies.",
+    "marketing": "Marketing",
+    "marketingText": "Autoriser les technologies de marketing qui peuvent reconnaître un appareil au fil des visites à des fins publicitaires.",
+    "close": "Refuser le marketing et fermer",
+    "manage": "Gérer les cookies"
+  },
  "Imprint": {
   "title": "Mentions légales",
   "contact": "Contacter ENVT Consulting",

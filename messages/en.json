@@ -553,13 +553,20 @@
   }
  },
  "CookieConsent": {
-  "title": "Cookie Settings",
-  "accept": "Accept All",
-  "deny": "Reject All",
-  "manage": "Manage Cookies",
-  "description": "We store your cookie choice for 180 days. You can change it at any time using “Manage cookies” in the footer."
+  "title": "Manage Consent",
+  "description": "We remember your choices on this device. You can allow or refuse optional marketing technologies, or choose your settings below. Closing this window with × also refuses marketing.",
+  "accept": "Accept",
+  "deny": "Deny",
+  "view": "View preferences",
+  "save": "Save preferences",
+  "functional": "Functional",
+  "always": "Always active",
+  "functionalText": "These settings keep the site working and remember the choices you make, including your cookie decision.",
+  "marketing": "Marketing",
+  "marketingText": "Allow marketing technologies that can recognise a device across visits for advertising purposes.",
+  "close": "Deny marketing and close",
+  "manage": "Manage cookies"
  },
-
  "Imprint": {
   "title": "Imprint",
   "contact": "Contact ENVT Consulting",
