@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import LocaleSwitcher from "./LocaleSwitcher";
 import Logo from "./Logo";
 import ThemeToggle from "./ThemeToggle";
@@ -13,6 +13,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
+
+  const pathname = usePathname();
+  const legalPage = ["/disclaimer", "/imprint", "/cookie-policy-eu"].includes(pathname);
 
   const links = [
     { href: "/", label: t("home") },
@@ -30,6 +33,7 @@ export default function Navbar() {
   }, []);
 
   useEffect(() => {
+    if (legalPage) return;
     const footer = document.querySelector("footer");
     if (!footer) return;
     const observer = new IntersectionObserver(
@@ -41,12 +45,12 @@ export default function Navbar() {
     );
     observer.observe(footer);
     return () => observer.disconnect();
-  }, []);
+  }, [legalPage]);
 
   return (
     <header
       className={`fixed inset-x-0 top-4 z-50 px-4 transition-[transform,visibility] duration-300 ease-out motion-reduce:transition-none ${
-        hidden ? "invisible -translate-y-[200%]" : "visible translate-y-0"
+        hidden && !legalPage ? "invisible -translate-y-[200%]" : "visible translate-y-0"
       }`}
     >
       <nav

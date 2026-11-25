@@ -70,7 +70,7 @@ export default async function Footer() {
             <ul className="mt-4 space-y-3 text-sm text-white/60">
               <li>
                 {/* TODO: asli LinkedIn URL lagao */}
-                <a href="#" className="transition-colors hover:text-picton-200">LinkedIn</a>
+                <a href="" className="transition-colors hover:text-picton-200">LinkedIn</a>
               </li>
               <li>
                 <a href="tel:+33632239229" className="transition-colors hover:text-picton-200">
