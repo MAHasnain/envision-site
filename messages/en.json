@@ -551,5 +551,255 @@
     "server": "Something went wrong. Please try again, or call us directly."
    }
   }
+ },
+ "CookieConsent": {
+  "title": "Cookie Settings",
+  "accept": "Accept All",
+  "deny": "Reject All",
+  "manage": "Manage Cookies",
+  "description": "We store your cookie choice for 180 days. You can change it at any time using “Manage cookies” in the footer."
+ },
+
+ "Imprint": {
+  "title": "Imprint",
+  "contact": "Contact ENVT Consulting",
+  "phone": "+33 6 32 23 92 29",
+  "office": {
+   "heading": "French website contact",
+   "body": "ENVT Consulting, 43 boulevard Auguste Blanqui, 75013 Paris, France. For an enquiry about this website, use the contact form or call the Paris office."
+  },
+  "publisher": {
+   "heading": "Publisher identified on envt.eu",
+   "body": "The imprint for envt.eu gives the publisher’s address as Machnowerstr. 15, 14165 Berlin, Germany. Its published email is info@envt.eu. The following corporate particulars concern the German entity identified in that imprint."
+  },
+  "director": {
+   "heading": "Legal representative",
+   "body": "The Berlin imprint names Irfan Ullah as managing director (Geschäftsführer)."
+  },
+  "register": {
+   "heading": "Commercial register",
+   "body": "The German company’s Handelsregister entry is HRB 291987 B."
+  },
+  "arbitration": {
+   "heading": "Consumer dispute resolution",
+   "body": "The German publisher states that it does not participate in consumer arbitration proceedings and is under no obligation to do so."
+  },
+  "capital": {
+   "heading": "Share capital",
+   "body": "The capital figure published in the German imprint is 25,000."
+  }
+ },
+ "Disclaimer": {
+  "title": "Disclaimer",
+  "contact": "Contact ENVT Consulting",
+  "accuracy": {
+   "heading": "Accuracy and corrections",
+   "body": "ENVT Consulting reviews its service descriptions. If you spot a mistake, send the page address, the passage concerned and the correction you suggest so that our team can check it."
+  },
+  "reliance": {
+   "heading": "Using published information",
+   "body": "A case study or service description is general information. Before committing budget or scheduling work, obtain a written proposal covering the requirements, price and delivery dates for your project. Access to the site may be interrupted."
+  },
+  "forms": {
+   "heading": "Information sent through forms",
+   "body": "Please provide only the details needed to answer your enquiry. The Privacy Statement explains how to ask about the use or deletion of your information."
+  },
+  "external": {
+   "heading": "External links",
+   "body": "An external publisher can change a linked page at any time. Check that publisher’s terms before relying on its content or ordering its services."
+  },
+  "reuse": {
+   "heading": "Copyright and permissions",
+   "body": "For permission to republish a photograph, article or illustration, identify the material and describe your proposed use. Observe any credit or licence shown with it. Exceptions provided by law remain available."
+  },
+  "access": {
+   "heading": "Accessibility",
+   "body": "If you cannot read a page or operate a control, tell us which page and device you used and which information you need. We can then follow up on the specific difficulty."
+  }
+ },
+ "CookiePolicy": {
+  "title": "Cookie Policy",
+  "contact": "Contact ENVT Consulting",
+  "storage": {
+   "heading": "What is stored on my device?",
+   "body": "A cookie is a small value that a browser can send back to a website. Local storage keeps values within the browser for a particular site. This policy describes the settings used by the ENVT Consulting website."
+  },
+  "scripts": {
+   "heading": "Scripts and pixels",
+   "body": "Scripts run features such as the theme switcher. A tracking pixel can signal a page view to its provider. The presence of a script alone does not identify its purpose or imply that it sets a cookie."
+  },
+  "purpose": {
+   "heading": "Functional, statistical and advertising purposes",
+   "body": "Functional storage remembers a setting you select. Audience measurement counts visits or interactions. Advertising trackers may link activity across visits or services. These descriptions explain the categories you may encounter in a consent notice."
+  },
+  "theme": {
+   "heading": "Display preference",
+   "body": "The local-storage key theme records the selected light or dark appearance. It is read on return visits and has no automatic expiry. Clearing this site’s local storage resets the preference."
+  },
+  "choice": {
+   "heading": "Consent record",
+   "body": "The cookie envision_consent_v1 records acceptance or refusal for up to 180 days. Both language versions use the same choice on this domain. The settings button below lets you reconsider your decision."
+  },
+  "controls": {
+   "heading": "Viewing or deleting stored data",
+   "body": "Your browser’s site-data settings list cookies and stored preferences. You can remove entries for this domain or block future storage. Removing the consent record makes the notice appear again on a subsequent visit."
+  },
+  "rights": {
+   "heading": "Questions and privacy rights",
+   "body": "For a question about an identifier or a request concerning your personal data, contact ENVT Consulting. Specify the site and the storage entry you saw, without including its unique value."
+  }
+ },
+ "Terms": {
+  "title": "Terms & Conditions",
+  "contact": "Contact ENVT Consulting",
+  "pdf": "Download the terms (PDF)",
+  "scope": {
+   "heading": "Scope",
+   "body": "These terms cover visits to the ENVT Consulting website. A signed proposal or service agreement sets the obligations for a specific engagement."
+  },
+  "acceptance": {
+   "heading": "Using the site",
+   "body": "Read these conditions before sending an enquiry or using published resources. Ask our team about any condition that is unclear."
+  },
+  "email": {
+   "heading": "Electronic correspondence",
+   "body": "When contacting us online, provide a working reply address. Keep a copy of proposals and written confirmations relevant to your project."
+  },
+  "rights": {
+   "heading": "Intellectual property",
+   "body": "Logos, illustrations, software and editorial material may carry separate rights. Obtain permission before commercial reuse unless a licence or the law permits it."
+  },
+  "third": {
+   "heading": "Third-party material",
+   "body": "A supplier mentioned in an article remains responsible for its own offers. Its trademarks and terms belong to their respective holders."
+  },
+  "use": {
+   "heading": "Acceptable use",
+   "body": "Use the contact form for genuine enquiries. Do not upload harmful content, disrupt access, harvest contact details or use site information for unsolicited campaigns."
+  },
+  "ideas": {
+   "heading": "Confidential submissions",
+   "body": "Before sending an invention, source code or a confidential brief, agree with us in writing on confidentiality and permitted use."
+  },
+  "availability": {
+   "heading": "Changes to access",
+   "body": "Maintenance, security work or misuse may require us to limit access or withdraw a feature. Retain your own copies of material you submit."
+  },
+  "liability": {
+   "heading": "Warranties and liability",
+   "body": "The site gives general descriptions and may contain errors. Project warranties, remedies and any liability limit should be read in the applicable contract, subject to mandatory law."
+  },
+  "privacy": {
+   "heading": "Privacy and cookies",
+   "body": "See the Privacy Statement for information submitted to our team and the Cookie Policy for settings stored by your browser."
+  },
+  "trade": {
+   "heading": "Export and local restrictions",
+   "body": "Before using technical material across borders, check the restrictions applicable to the material, destination and intended recipient."
+  },
+  "transfer": {
+   "heading": "Transfer of rights",
+   "body": "Obtain written agreement before transferring obligations under a project contract to another party."
+  },
+  "breach": {
+   "heading": "Breach of conditions",
+   "body": "We may restrict abusive access, preserve relevant records and pursue remedies available under the applicable agreement or law."
+  },
+  "events": {
+   "heading": "Events outside the parties’ control",
+   "body": "For a project affected by an external disruption, notify the other party promptly and refer to the contract for suspension, payment and rescheduling provisions."
+  },
+  "claims": {
+   "heading": "Third-party claims",
+   "body": "If material you submit gives rise to a third-party claim, notify our team. The applicable agreement and law determine responsibility and recoverable costs."
+  },
+  "waiver": {
+   "heading": "Exercise of rights",
+   "body": "A delay in exercising a contractual right does not by itself amount to giving it up."
+  },
+  "language": {
+   "heading": "Language",
+   "body": "The website is available in English and French. For a signed engagement, consult the language provision in the agreement."
+  },
+  "agreement": {
+   "heading": "Related documents",
+   "body": "Read these terms alongside the privacy and cookie notices. Check the documents identified in your signed proposal for the terms of a purchase."
+  },
+  "updates": {
+   "heading": "Revisions",
+   "body": "Save the version relevant to your visit. You may contact ENVT Consulting about an earlier version or a change affecting a project."
+  },
+  "law": {
+   "heading": "Disputes and applicable law",
+   "body": "For a contractual dispute, consult the governing-law and jurisdiction clauses of your agreement. Any mandatory protections applicable to your circumstances continue to apply."
+  },
+  "contactInfo": {
+   "heading": "Contact",
+   "body": "Send questions through our contact page or write to the Paris office at 43 boulevard Auguste Blanqui, 75013 Paris, France."
+  },
+  "download": {
+   "heading": "Save a copy",
+   "body": "Use the PDF link below to download these terms in the language of this page."
+  }
+ },
+ "Privacy": {
+  "title": "Privacy Statement",
+  "contact": "Contact ENVT Consulting",
+  "overview": {
+   "heading": "Who this statement is for",
+   "body": "This notice explains how ENVT Consulting handles information about website visitors, people making enquiries and customer contacts. You can ask which records relate to you and why they are held."
+  },
+  "enquiries": {
+   "heading": "Enquiries and replies",
+   "body": "The contact form requests your first name, last name, email and message. These details allow the team to answer and follow up. Handling an ordinary enquiry serves our interest in responding. A request for a quotation may involve steps you ask us to take before a contract. Keep correspondence only as long as the enquiry or a related obligation requires."
+  },
+  "service": {
+   "heading": "Customer support and contracts",
+   "body": "A project may require professional contact details, a delivery address and the history of support requests. The contract or steps requested before signing determine the purpose. Records may be needed after delivery for support, claims or statutory recordkeeping."
+  },
+  "records": {
+   "heading": "Legal obligations",
+   "body": "Accounting and business records may contain names, addresses and invoice details. Where retention is required by law, the applicable record type and jurisdiction determine its duration."
+  },
+  "analytics": {
+   "heading": "Audience measurement",
+   "body": "Where optional measurement is offered, consult the consent notice for the provider and purpose before accepting. Ask us about the identifiers collected and the period configured for the service."
+  },
+  "sharing": {
+   "heading": "Who may receive information?",
+   "body": "People handling your enquiry and providers supporting website hosting or delivery of email may need relevant details. You may ask which providers handled a particular request and where the information was processed."
+  },
+  "cookies": {
+   "heading": "Browser settings",
+   "body": "The Cookie Policy describes local storage, consent choices and the settings available on this website."
+  },
+  "disclosure": {
+   "heading": "Required disclosures and business transfers",
+   "body": "Information may have to be supplied in response to a lawful demand. If a business transfer involves personal records, disclosure must be limited to what the transaction and applicable law permit."
+  },
+  "security": {
+   "heading": "Security",
+   "body": "Please keep passwords, identity documents and confidential client files out of ordinary web enquiries. If sensitive material is needed, arrange an appropriate transfer method with the person handling your case."
+  },
+  "external": {
+   "heading": "External websites",
+   "body": "Opening an external link takes you to another publisher. Review its privacy notice before providing personal details there."
+  },
+  "changes": {
+   "heading": "Changes to this notice",
+   "body": "Revisit this page when using a new service or submitting a new type of information. Contact our team for clarification about a previous enquiry."
+  },
+  "rights": {
+   "heading": "Your rights",
+   "body": "Depending on the circumstances, you may request access, correction, deletion, restriction or portability, or object to processing. You can withdraw consent for future processing based on it. Explain which data and use your request concerns."
+  },
+  "complaints": {
+   "heading": "Raising a complaint",
+   "body": "You may contact the competent data protection authority. In France, complaints can be submitted to the CNIL."
+  },
+  "request": {
+   "heading": "Contact and data requests",
+   "body": "Use the contact form to request a copy, deletion or export. Give a reply address and enough context to locate the record. We may ask for proportionate identity verification before releasing or changing data. You may also write to ENVT Consulting, 43 boulevard Auguste Blanqui, 75013 Paris, France."
+  }
  }
 }

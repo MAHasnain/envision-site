@@ -557,5 +557,254 @@
     "server": "Une erreur s'est produite. Veuillez réessayer ou nous appeler directement."
    }
   }
+ },
+ "CookieConsent": {
+  "title": "Paramètres des cookies",
+  "accept": "Tout accepter",
+  "deny": "Tout refuser",
+  "manage": "Gérer les cookies",
+  "description": "Nous conservons votre choix pendant 180 jours. Vous pouvez le modifier à tout moment en sélectionnant « Gérer les cookies » en bas de page."
+ },
+ "Imprint": {
+  "title": "Mentions légales",
+  "contact": "Contacter ENVT Consulting",
+  "phone": "+33 6 32 23 92 29",
+  "office": {
+   "heading": "Contact du site français",
+   "body": "ENVT Consulting, 43 boulevard Auguste Blanqui, 75013 Paris, France. Pour toute question sur le site, utilisez le formulaire de contact ou appelez le bureau de Paris."
+  },
+  "publisher": {
+   "heading": "Éditeur indiqué sur envt.eu",
+   "body": "Les mentions légales d’envt.eu indiquent comme adresse de l’éditeur Machnowerstr. 15, 14165 Berlin, Allemagne, et comme courriel info@envt.eu. Les renseignements qui suivent concernent la société allemande désignée dans ces mentions."
+  },
+  "director": {
+   "heading": "Représentant légal",
+   "body": "Les mentions légales du site de Berlin désignent Irfan Ullah comme gérant (Geschäftsführer)."
+  },
+  "register": {
+   "heading": "Registre du commerce",
+   "body": "La société allemande est inscrite au Handelsregister sous le numéro HRB 291987 B."
+  },
+  "arbitration": {
+   "heading": "Règlement des litiges de consommation",
+   "body": "L’éditeur allemand déclare ne pas participer aux procédures devant un organisme d’arbitrage de la consommation et ne pas y être tenu."
+  },
+  "capital": {
+   "heading": "Capital social",
+   "body": "Le montant du capital indiqué dans les mentions légales allemandes est de 25 000."
+  }
+ },
+ "Disclaimer": {
+  "title": "Avertissement",
+  "contact": "Contacter ENVT Consulting",
+  "accuracy": {
+   "heading": "Exactitude et corrections",
+   "body": "ENVT Consulting vérifie ses descriptions de services. Si vous relevez une erreur, indiquez l’adresse de la page, le passage concerné et la correction proposée pour permettre à notre équipe de la vérifier."
+  },
+  "reliance": {
+   "heading": "Utilisation des informations",
+   "body": "Une étude de cas ou une présentation de service donne des informations générales. Avant d’engager des dépenses ou de planifier des travaux, demandez une proposition écrite précisant vos besoins, le prix et les délais. L’accès au site peut être interrompu."
+  },
+  "forms": {
+   "heading": "Informations transmises par formulaire",
+   "body": "Communiquez uniquement les renseignements nécessaires à votre demande. La déclaration de confidentialité indique comment vous renseigner sur leur utilisation ou demander leur suppression."
+  },
+  "external": {
+   "heading": "Liens externes",
+   "body": "Un éditeur tiers peut modifier à tout moment la page vers laquelle pointe un lien. Consultez ses conditions avant d’utiliser son contenu ou de commander ses services."
+  },
+  "reuse": {
+   "heading": "Droits d’auteur et autorisations",
+   "body": "Pour republier une photo, un article ou une illustration, précisez le contenu concerné et l’usage prévu. Respectez les crédits et les licences indiqués. Les exceptions prévues par la loi restent applicables."
+  },
+  "access": {
+   "heading": "Accessibilité",
+   "body": "Si vous ne pouvez pas lire une page ou utiliser une commande, indiquez la page, votre appareil et le renseignement recherché. Nous pourrons ainsi examiner la difficulté rencontrée."
+  }
+ },
+ "CookiePolicy": {
+  "title": "Politique relative aux cookies",
+  "contact": "Contacter ENVT Consulting",
+  "storage": {
+   "heading": "Que conserve mon appareil ?",
+   "body": "Un cookie est une petite valeur que le navigateur peut renvoyer à un site. Le stockage local conserve des valeurs dans le navigateur pour un site donné. Cette politique décrit les réglages utilisés par le site d’ENVT Consulting."
+  },
+  "scripts": {
+   "heading": "Scripts et pixels",
+   "body": "Un script peut faire fonctionner le sélecteur de thème. Un pixel de suivi peut signaler une consultation à son fournisseur. La présence d’un script ne suffit pas à déterminer son usage ni à conclure qu’il dépose un cookie."
+  },
+  "purpose": {
+   "heading": "Fonctionnement, statistiques et publicité",
+   "body": "Le stockage fonctionnel mémorise un réglage choisi. La mesure d’audience comptabilise des visites ou des interactions. Le suivi publicitaire peut relier des activités entre plusieurs visites ou services. Ces définitions expliquent les catégories d’un avis de consentement."
+  },
+  "theme": {
+   "heading": "Préférence d’affichage",
+   "body": "La clé de stockage local theme conserve le choix du mode clair ou sombre. Elle est relue lors des visites suivantes, sans expiration automatique. Effacer le stockage local du site réinitialise ce réglage."
+  },
+  "choice": {
+   "heading": "Mémorisation du consentement",
+   "body": "Le cookie envision_consent_v1 conserve votre acceptation ou votre refus pendant 180 jours au maximum. Les deux versions linguistiques utilisent le même choix sur ce domaine. Le bouton de réglage ci-dessous permet de le modifier."
+  },
+  "controls": {
+   "heading": "Consulter ou effacer les données",
+   "body": "Les réglages du navigateur affichent les cookies et les préférences enregistrées par site. Vous pouvez effacer les entrées de ce domaine ou bloquer leur stockage. Après suppression du consentement mémorisé, le bandeau réapparaîtra lors d’une visite ultérieure."
+  },
+  "rights": {
+   "heading": "Questions et droits",
+   "body": "Pour toute question sur un identifiant ou sur vos données personnelles, contactez ENVT Consulting. Précisez le site et le nom de l’entrée observée sans communiquer sa valeur unique."
+  }
+ },
+ "Terms": {
+  "title": "Conditions générales",
+  "contact": "Contacter ENVT Consulting",
+  "pdf": "Télécharger les conditions (PDF)",
+  "scope": {
+   "heading": "Champ d’application",
+   "body": "Ces conditions encadrent la consultation du site d’ENVT Consulting. Une proposition signée ou un contrat de prestation fixe les engagements propres à une mission."
+  },
+  "acceptance": {
+   "heading": "Utilisation du site",
+   "body": "Prenez connaissance de ces conditions avant d’envoyer une demande ou d’utiliser une ressource. Contactez notre équipe si une disposition demande une précision."
+  },
+  "email": {
+   "heading": "Correspondance électronique",
+   "body": "Indiquez une adresse de réponse valide. Conservez les propositions et confirmations écrites concernant votre projet."
+  },
+  "rights": {
+   "heading": "Propriété intellectuelle",
+   "body": "Les logos, illustrations, logiciels et textes peuvent relever de droits distincts. Avant toute réutilisation commerciale, obtenez une autorisation, sauf licence ou exception légale applicable."
+  },
+  "third": {
+   "heading": "Contenus de tiers",
+   "body": "Un fournisseur cité dans un article reste responsable de ses offres. Ses marques et ses conditions relèvent de leurs titulaires respectifs."
+  },
+  "use": {
+   "heading": "Usage autorisé",
+   "body": "Réservez le formulaire aux demandes réelles. Ne transmettez pas de contenu nuisible, ne perturbez pas l’accès et ne collectez pas de coordonnées à des fins de démarchage non sollicité."
+  },
+  "ideas": {
+   "heading": "Envois confidentiels",
+   "body": "Avant de transmettre une invention, du code source ou un cahier des charges confidentiel, convenez par écrit avec nous de la confidentialité et des usages autorisés."
+  },
+  "availability": {
+   "heading": "Accès au service",
+   "body": "Une maintenance, une intervention de sécurité ou un usage abusif peut nécessiter de restreindre l’accès ou de retirer une fonctionnalité. Gardez une copie de vos envois."
+  },
+  "liability": {
+   "heading": "Garanties et responsabilité",
+   "body": "Le site fournit des descriptions générales susceptibles de contenir des erreurs. Consultez le contrat applicable pour les garanties, recours et plafonds de responsabilité, sous réserve des règles impératives."
+  },
+  "privacy": {
+   "heading": "Confidentialité et cookies",
+   "body": "Consultez la déclaration de confidentialité pour les données transmises à notre équipe et la politique relative aux cookies pour les réglages conservés dans votre navigateur."
+  },
+  "trade": {
+   "heading": "Exportation et restrictions locales",
+   "body": "Avant de transmettre des documents techniques à l’étranger, vérifiez les restrictions applicables au contenu, à la destination et au destinataire."
+  },
+  "transfer": {
+   "heading": "Cession",
+   "body": "Obtenez un accord écrit avant de transférer à un tiers des obligations découlant d’un contrat de prestation."
+  },
+  "breach": {
+   "heading": "Manquement",
+   "body": "En cas d’abus, nous pouvons restreindre l’accès, conserver les éléments pertinents et exercer les recours prévus par le contrat ou par la loi."
+  },
+  "events": {
+   "heading": "Événements extérieurs",
+   "body": "Si une mission subit une perturbation extérieure, prévenez rapidement l’autre partie et consultez le contrat pour les modalités de suspension, de paiement et de report."
+  },
+  "claims": {
+   "heading": "Réclamations de tiers",
+   "body": "Si un contenu transmis donne lieu à une réclamation, informez notre équipe. Le contrat et la loi applicables déterminent les responsabilités et les frais recouvrables."
+  },
+  "waiver": {
+   "heading": "Exercice des droits",
+   "body": "Le seul fait de tarder à exercer un droit contractuel ne vaut pas renonciation à ce droit."
+  },
+  "language": {
+   "heading": "Langue",
+   "body": "Le site existe en anglais et en français. Pour une mission signée, consultez la clause linguistique du contrat."
+  },
+  "agreement": {
+   "heading": "Documents applicables",
+   "body": "Lisez ces conditions avec les informations relatives à la confidentialité et aux cookies. Pour un achat, vérifiez les documents cités dans votre proposition signée."
+  },
+  "updates": {
+   "heading": "Révisions",
+   "body": "Conservez la version correspondant à votre visite. Vous pouvez interroger ENVT Consulting sur une version précédente ou une évolution concernant votre mission."
+  },
+  "law": {
+   "heading": "Litiges et droit applicable",
+   "body": "Pour un différend contractuel, consultez les clauses de droit applicable et de juridiction de votre contrat. Les protections impératives propres à votre situation demeurent applicables."
+  },
+  "contactInfo": {
+   "heading": "Coordonnées",
+   "body": "Adressez vos questions via la page de contact ou par courrier au 43 boulevard Auguste Blanqui, 75013 Paris, France."
+  },
+  "download": {
+   "heading": "Conserver un exemplaire",
+   "body": "Le lien PDF ci-dessous permet de télécharger ces conditions dans la langue de la page."
+  }
+ },
+ "Privacy": {
+  "title": "Déclaration de confidentialité",
+  "contact": "Contacter ENVT Consulting",
+  "overview": {
+   "heading": "À qui s’adresse cette déclaration ?",
+   "body": "Cette déclaration concerne les visiteurs du site, les personnes qui sollicitent ENVT Consulting et les interlocuteurs de ses clients. Vous pouvez demander quels renseignements vous concernent et pour quelle raison ils sont conservés."
+  },
+  "enquiries": {
+   "heading": "Demandes et réponses",
+   "body": "Le formulaire demande vos prénom, nom, courriel et message. Ces éléments permettent de vous répondre et d’assurer le suivi. Répondre à une demande ordinaire relève de notre intérêt à traiter les sollicitations. Un devis peut nécessiter des démarches précontractuelles à votre initiative. La conservation dépend du suivi nécessaire et des obligations associées."
+  },
+  "service": {
+   "heading": "Assistance et contrats",
+   "body": "Une mission peut nécessiter des coordonnées professionnelles, une adresse de livraison et un historique d’assistance. Le contrat ou les démarches demandées avant sa signature déterminent la finalité. Certaines pièces peuvent rester nécessaires après livraison pour le suivi, les réclamations ou l’archivage légal."
+  },
+  "records": {
+   "heading": "Obligations légales",
+   "body": "Des pièces comptables ou commerciales peuvent contenir des noms, des adresses et des données de facturation. Lorsqu’une loi impose leur conservation, sa durée dépend de la nature du document et du régime applicable."
+  },
+  "analytics": {
+   "heading": "Mesure d’audience",
+   "body": "Si une mesure facultative est proposée, consultez le bandeau pour connaître le fournisseur et la finalité avant d’accepter. Vous pouvez nous interroger sur les identifiants recueillis et la durée configurée pour le service."
+  },
+  "sharing": {
+   "heading": "Destinataires",
+   "body": "Les personnes chargées du dossier et les prestataires d’hébergement ou d’acheminement des courriels peuvent avoir besoin des renseignements utiles. Vous pouvez demander quels prestataires ont traité votre demande et dans quels pays."
+  },
+  "cookies": {
+   "heading": "Réglages du navigateur",
+   "body": "La politique relative aux cookies décrit le stockage local, les choix de consentement et les réglages proposés sur ce site."
+  },
+  "disclosure": {
+   "heading": "Communications obligatoires et cession",
+   "body": "Une demande légale peut imposer la communication de renseignements. En cas de cession impliquant des dossiers personnels, leur communication doit se limiter à ce que permettent l’opération et le droit applicable."
+  },
+  "security": {
+   "heading": "Sécurité",
+   "body": "Évitez d’inclure mots de passe, pièces d’identité ou dossiers clients confidentiels dans une demande ordinaire. Si des documents sensibles sont nécessaires, convenez d’un moyen de transmission adapté avec votre interlocuteur."
+  },
+  "external": {
+   "heading": "Sites externes",
+   "body": "Un lien externe vous conduit chez un autre éditeur. Consultez sa déclaration de confidentialité avant d'y communiquer des données."
+  },
+  "changes": {
+   "heading": "Évolution de cette déclaration",
+   "body": "Consultez cette page en cas de nouveau service ou de transmission d'un nouveau type de renseignement. Notre équipe peut répondre aux questions portant sur une demande antérieure."
+  },
+  "rights": {
+   "heading": "Vos droits",
+   "body": "Selon votre situation, vous pouvez demander l’accès, la rectification, l'effacement, la limitation ou la portabilité, ou vous opposer au traitement. Vous pouvez retirer votre consentement pour l’avenir. Précisez les données et l’usage concernés."
+  },
+  "complaints": {
+   "heading": "Réclamation",
+   "body": "Vous pouvez saisir l’autorité de protection des données compétente. En France, vous pouvez adresser une réclamation à la CNIL."
+  },
+  "request": {
+   "heading": "Contact et demande relative aux données",
+   "body": "Utilisez le formulaire pour demander une copie, un effacement ou un export. Indiquez une adresse de réponse et les éléments utiles pour retrouver le dossier. Une vérification proportionnée de votre identité peut être nécessaire. Vous pouvez aussi écrire à ENVT Consulting, 43 boulevard Auguste Blanqui, 75013 Paris, France."
+  }
  }
 }
