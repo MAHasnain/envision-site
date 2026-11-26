@@ -1,5 +1,5 @@
 export const aboutStory = {
- image: "/images/about/story.png",
+ image: "/images/about/story.jpg",
 };
 
 export const aboutValues = [
@@ -10,7 +10,7 @@ export const aboutValues = [
 ] as const;
 
 export const aboutWhy = {
- image: "/images/about/office.png",
+ image: "/images/about/office.jpg",
  items: [
   { id: "advisory", icon: "compass" },
   { id: "support", icon: "support" },
